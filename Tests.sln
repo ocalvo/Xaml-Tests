@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28621.142
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonUWP", "Native\Common.UAP\CommonUWP.vcxitems", "{80AF40DD-94BC-4589-A1FE-0DD247B8C05E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests1", "Native\Tests1\Tests1.vcxproj", "{507C1892-C030-4BC4-B9DC-B216EB6FBBED}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{ABE89B02-9EF3-4E72-9074-0C960A8C9B74}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests1", "Native\Tests1\Tests1.vcxproj", "{507C1892-C030-4BC4-B9DC-B216EB6FBBED}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
