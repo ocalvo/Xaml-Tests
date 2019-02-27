@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonUWP", "Native\Common.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests1", "Native\Tests1\Tests1.vcxproj", "{507C1892-C030-4BC4-B9DC-B216EB6FBBED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{ABE89B02-9EF3-4E72-9074-0C960A8C9B74}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Native\Common.UAP\CommonUWP.vcxitems*{507c1892-c030-4bc4-b9dc-b216eb6fbbed}*SharedItemsImports = 4
@@ -50,6 +52,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80AF40DD-94BC-4589-A1FE-0DD247B8C05E} = {ABE89B02-9EF3-4E72-9074-0C960A8C9B74}
+		{507C1892-C030-4BC4-B9DC-B216EB6FBBED} = {ABE89B02-9EF3-4E72-9074-0C960A8C9B74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74083890-3D73-4101-B9D8-53D5FA9F25A7}
