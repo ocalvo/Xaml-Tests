@@ -10,7 +10,7 @@
 #include <collection.h>
 #include <ppltasks.h>
 
-namespace TestApp1
+namespace TestApp
 {
 	/// <summary>
 	/// Provides application-specific behavior to supplement the default Application class.

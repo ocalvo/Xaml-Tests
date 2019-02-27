@@ -7,7 +7,7 @@
 
 #include "TestApp.h"
 
-using namespace TestApp1;
+using namespace TestApp;
 
 using namespace Platform;
 using namespace Windows::ApplicationModel;
