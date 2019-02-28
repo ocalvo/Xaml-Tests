@@ -111,7 +111,7 @@
     <Image Include="..\CommonUWP\Assets\*" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Common.UAP\TestApp_SelfSignedKey.pfx" />
+    <None Include="TestApp_SelfSignedKey.pfx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
