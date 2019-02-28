@@ -47,11 +47,11 @@
     <Image Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <PropertyGroup>
-    <PackageCertificateKeyFile>TestApp_SelfSignedKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>$(MSBuildThisFileDirectory)TestApp_SelfSignedKey.pfx</PackageCertificateKeyFile>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxBundle>Never</AppxBundle>
-    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <AppxBundlePlatforms>x86</AppxBundlePlatforms>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
   </PropertyGroup>
