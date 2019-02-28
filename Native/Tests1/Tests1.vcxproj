@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1d163f91-260b-40b1-ae4c-1ed3d9532105}</ProjectGuid>
+    <ProjectGuid>{507C1892-C030-4BC4-B9DC-B216EB6FBBED}</ProjectGuid>
     <RootNamespace>Tests2</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>

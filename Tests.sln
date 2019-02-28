@@ -7,16 +7,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonUWP", "Native\Common.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{ABE89B02-9EF3-4E72-9074-0C960A8C9B74}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tests1", "Native\Tests1\Tests1.vcxproj", "{507C1892-C030-4BC4-B9DC-B216EB6FBBED}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B145AAA3-1762-48CC-842F-D61848DEAEA5}"
 	ProjectSection(SolutionItems) = preProject
 		azure-pipelines.yml = azure-pipelines.yml
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managed", "Managed", "{E933B3AD-F24A-4D49-8489-8B96A01EBFA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests2", "Managed\Tests2\Tests2.csproj", "{575B61AD-60E4-492A-B8AC-64C702368B4A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Native\Common.UAP\CommonUWP.vcxitems*{507c1892-c030-4bc4-b9dc-b216eb6fbbed}*SharedItemsImports = 4
 		Native\Common.UAP\CommonUWP.vcxitems*{80af40dd-94bc-4589-a1fe-0dd247b8c05e}*SharedItemsImports = 9
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,37 +31,37 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM.ActiveCfg = Debug|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM.Build.0 = Debug|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM.Deploy.0 = Debug|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM64.ActiveCfg = Debug|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM64.Build.0 = Debug|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|ARM64.Deploy.0 = Debug|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x64.ActiveCfg = Debug|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x64.Build.0 = Debug|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x64.Deploy.0 = Debug|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x86.ActiveCfg = Debug|Win32
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x86.Build.0 = Debug|Win32
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Debug|x86.Deploy.0 = Debug|Win32
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM.ActiveCfg = Release|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM.Build.0 = Release|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM.Deploy.0 = Release|ARM
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM64.ActiveCfg = Release|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM64.Build.0 = Release|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|ARM64.Deploy.0 = Release|ARM64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x64.ActiveCfg = Release|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x64.Build.0 = Release|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x64.Deploy.0 = Release|x64
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x86.ActiveCfg = Release|Win32
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x86.Build.0 = Release|Win32
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED}.Release|x86.Deploy.0 = Release|Win32
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM.Build.0 = Debug|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM.Deploy.0 = Debug|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x64.ActiveCfg = Debug|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x64.Build.0 = Debug|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x64.Deploy.0 = Debug|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x86.ActiveCfg = Debug|x86
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x86.Build.0 = Debug|x86
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Debug|x86.Deploy.0 = Debug|x86
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM.ActiveCfg = Release|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM.Build.0 = Release|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM.Deploy.0 = Release|ARM
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM64.Build.0 = Release|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|ARM64.Deploy.0 = Release|ARM64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x64.ActiveCfg = Release|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x64.Build.0 = Release|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x64.Deploy.0 = Release|x64
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x86.ActiveCfg = Release|x86
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x86.Build.0 = Release|x86
+		{575B61AD-60E4-492A-B8AC-64C702368B4A}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{80AF40DD-94BC-4589-A1FE-0DD247B8C05E} = {ABE89B02-9EF3-4E72-9074-0C960A8C9B74}
-		{507C1892-C030-4BC4-B9DC-B216EB6FBBED} = {ABE89B02-9EF3-4E72-9074-0C960A8C9B74}
+		{575B61AD-60E4-492A-B8AC-64C702368B4A} = {E933B3AD-F24A-4D49-8489-8B96A01EBFA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74083890-3D73-4101-B9D8-53D5FA9F25A7}
