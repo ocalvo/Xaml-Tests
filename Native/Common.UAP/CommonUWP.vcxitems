@@ -47,7 +47,7 @@
     <Image Include="$(MSBuildThisFileDirectory)Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <PropertyGroup>
-    <PackageCertificateKeyFile>$(MSBuildThisFileDirectory)TestApp_SelfSignedKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>TestApp_SelfSignedKey.pfx</PackageCertificateKeyFile>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxBundle>Never</AppxBundle>
