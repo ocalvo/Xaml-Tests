@@ -9,7 +9,7 @@
   <Identity
     Name="55ed134f-58cf-4968-93e0-a008603c06f0"
     Publisher="CN=ocalvo"
-    Version="1.0.3.0" />
+    Version="1.0.5.0" />
 
   <mp:PhoneIdentity PhoneProductId="55ed134f-58cf-4968-93e0-a008603c06f0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

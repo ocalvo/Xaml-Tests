@@ -8,4 +8,7 @@
   <ItemGroup>
     <ClCompile Include="Tests1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common.UAP\TestApp_SelfSignedKey.pfx" />
+  </ItemGroup>
 </Project>
